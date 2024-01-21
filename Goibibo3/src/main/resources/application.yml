@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+restapi:
+  url:
+    bookurl: http://localhost:8080/booking
+    geturl: http://localhost:8080/getAllTickets
+    updateurl: http://localhost:8080/updateTicket/{pnr}
+    deleteurl: http://localhost:8080/deleteTicket/{pnr}
