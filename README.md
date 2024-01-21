@@ -38,7 +38,7 @@ This Ticket Management System is designed to manage tickets for two applications
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ticket-management-system.git
+   git clone https://github.com/Prashanthdamara/TicketManagementSystem.git
    
 2. Configure the database connection in application.properties or application.yml.
 
